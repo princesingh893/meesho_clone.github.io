@@ -162,6 +162,9 @@
     &:hover .profile_image{
         color: #8e0f75;
     }
+      &:hover img{
+        color: #8e0f75;
+    }
     &:hover .profile-text{
         color: #8e0f75;
     }
@@ -228,6 +231,10 @@ hr{
     &:hover .cart_image{
         color: #8e0f75;
     }
+     &:hover .pkg{
+        font-weight: 500;
+        color: #8e0f75;
+    }
     &:hover .cart-text{
         color: #8e0f75;
     }   
@@ -253,7 +260,7 @@ hr{
 }
 .cart{
     cursor: pointer;
-    margin-left: 35px;
+    margin-left: 30px;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -262,8 +269,8 @@ hr{
 }
 .cart_image{
    font-size: 20px;
-   width: 20px;
-   height: 20px;
+   width: 22px;
+   height: 22px;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -744,16 +751,16 @@ hr{
     font-weight: 600;
 }
 .first_image_button{
-    margin-top: 50px;
+    margin: 30px 0;
     width: 482.68px;
-    height: 200px;
+    height: 80px;
     background-color: white;
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
-.first_image_button,.first_awesome{
-    height: 90px;
+.first_image_button .first_awesome{
+    height: 45px;
     font-size: 35px;
     color:rgba(0, 62, 41, 0.5);
 }
